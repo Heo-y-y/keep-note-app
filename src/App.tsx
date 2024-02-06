@@ -1,4 +1,4 @@
-import {BrowserRouter, Navigate, Route, Routes} from 'react-router-dom'
+import {HashRouter as Router, Navigate, Route, Routes} from 'react-router-dom'
 import './App.css'
 import { Navbar, Sidebar } from './layout'
 import { AllNotes, ArchiveNotes, ErrorPage, TagNotes, TrashNotes } from './pages'
@@ -23,7 +23,7 @@ function App() {
         pauseOnHover
         autoClose={1500}
       />
-      <BrowserRouter>
+      <Router>
         <Sidebar />
         <div className='app__container'>
           <Navbar /> 
@@ -36,7 +36,7 @@ function App() {
             <Route path='/*' element={<Navigate to={"/404"} />} />
           </Routes>
         </div>
-      </BrowserRouter>
+      </Router>
     </div>
   )
 }

@@ -1,8 +1,8 @@
-import React from 'react'
 import { useAppSelector } from '../../hooks/redux'
 import { useParams } from 'react-router-dom';
 import { Container, EmptyMsgBox } from '../../styles/styles';
 import { MainWrapper } from '../../components';
+import { Note } from '../../types/note';
 
 const TagNotes = () => {
 
