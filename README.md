@@ -1,30 +1,12 @@
-# React + TypeScript + Vite
+# ReactJS로 구현한 Keep Note 앱
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![스크린샷 2024-02-06 오후 6 29 26](https://github.com/Heo-y-y/react-budget-deploy-test-app/assets/112863029/898f65b6-05c7-4568-bb67-7946462c94bb)
 
-Currently, two official plugins are available:
+### 기능
+- 기본 CRUD 기능
+- modal 별 색상 변경, 글꼴, 정렬 기능
+- Git을 이용한 배포
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Demo
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+📎 **[계산기 앱](https://heo-y-y.github.io/keep-note-app/#/)**
