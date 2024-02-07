@@ -9,4 +9,4 @@
 
 ### Demo
 
-📎 **[계산기 앱](https://heo-y-y.github.io/keep-note-app/#/)**
+📎 **[Note 앱](https://heo-y-y.github.io/keep-note-app/#/)**
